@@ -125,10 +125,10 @@ function openSurrounding(id){
   var gridDownRight="button"+(parseInt(returnNumber(id.id))+17);
   var gridDownLeft="button"+(parseInt(returnNumber(id.id))+15);
 
-   if (parseInt(returnNumber(gridUp))>0){ 
+   if (parseInt(returnNumber(gridUp))>16){ 
     document.getElementById(gridUp).click()
    }
-   if (parseInt(returnNumber(gridDown))<209){ 
+   if (parseInt(returnNumber(gridDown))<193){ 
     document.getElementById(gridDown).click()
    }
    if (parseInt(returnNumber(gridLeft))%16!=1){ 
@@ -137,7 +137,7 @@ function openSurrounding(id){
    if (parseInt(returnNumber(gridRight))%16!=0){  
     document.getElementById(gridRight).click()
    }
-   if ((parseInt(returnNumber(gridUpLeft))%16!=1)&&(parseInt(returnNumber(gridUpLeft))<209)){
+ /*  if ((parseInt(returnNumber(gridUpLeft))%16!=1)&&(parseInt(returnNumber(gridUpLeft))<209)){
     document.getElementById(gridUpLeft).click()
    }
    if ((parseInt(returnNumber(gridUpRight))>0)&&((parseInt(returnNumber(gridUpRight))%16)!=0)){
@@ -149,5 +149,5 @@ function openSurrounding(id){
    if ((parseInt(returnNumber(gridDownRight))<209)&&((parseInt(returnNumber(gridDownRight))%16)!=0)){
     document.getElementById(gridDownRight).click()  
    }
-
+*/
 }
