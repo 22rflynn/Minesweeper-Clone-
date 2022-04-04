@@ -1,5 +1,5 @@
 var bombList=[];
-var num = randomNumber(1,207);;
+var num = randomNumber(1,207);
 
 document.oncontextmenu = rightClick; 
 function rightClick(clickEvent) { 
@@ -11,8 +11,8 @@ function rightClick(clickEvent) {
   var img=new Image(30,40)
   img.src="https://img.favpng.com/15/18/9/red-flag-red-flag-png-favpng-r7sNPr5e3wVjbsik7EQz8Jans.jpg"
   var i =0
-    img.id="img"+i;
-    i++
+    img.id="img"+returnNumber(clicked);
+    
   document.getElementById(clicked.id).appendChild(img);
   } 
 }
@@ -40,13 +40,15 @@ function randomNumber(min, max) {
        for(var i=1;i<208;i++){
          document.getElementById("button"+i).style.display = "none";
        }
-       document.getElementById("grid"+returnNumber(id)).style.backgroundColor ="red";
+    document.getElementById("grid"+returnNumber(id)).style.backgroundColor ="red";
        alert("You Lose!")
-     }else if(checkSurrounding(clicked)==0){
-       openSurrounding(clicked)
      }else{
-       var text=checkSurrounding(clicked)
-       document.getElementById("grid"+returnNumber(id)).innerHTML=text
+       var surroundingBombs = checkSurrounding(clicked)
+         if(surroundingBombs>0){
+         document.getElementById("grid"+returnNumber(id)).innerHTML=surroundingBombs
+       }else{
+    
+     }  
      }
    }  
  
@@ -113,41 +115,4 @@ function returnString(string){
     }
   }
 return newString;
-}
-
-function openSurrounding(id){
-  var gridUp="button"+(parseInt(returnNumber(id.id))-16);
-  var gridDown="button"+(parseInt(returnNumber(id.id))+16);
-  var gridRight="button"+(parseInt(returnNumber(id.id))+1);
-  var gridLeft="button"+(parseInt(returnNumber(id.id))-1);
-  var gridUpRight="button"+(parseInt(returnNumber(id.id))-15);
-  var gridUpLeft="button"+(parseInt(returnNumber(id.id))-17);
-  var gridDownRight="button"+(parseInt(returnNumber(id.id))+17);
-  var gridDownLeft="button"+(parseInt(returnNumber(id.id))+15);
-
-   if (parseInt(returnNumber(gridUp))>16){ 
-    document.getElementById(gridUp).click()
-   }
-   if (parseInt(returnNumber(gridDown))<193){ 
-    document.getElementById(gridDown).click()
-   }
-   if (parseInt(returnNumber(gridLeft))%16!=1){ 
-    document.getElementById(gridLeft).click()
-   }
-   if (parseInt(returnNumber(gridRight))%16!=0){  
-    document.getElementById(gridRight).click()
-   }
- /*  if ((parseInt(returnNumber(gridUpLeft))%16!=1)&&(parseInt(returnNumber(gridUpLeft))<209)){
-    document.getElementById(gridUpLeft).click()
-   }
-   if ((parseInt(returnNumber(gridUpRight))>0)&&((parseInt(returnNumber(gridUpRight))%16)!=0)){
-    document.getElementById(gridUpRight).click()  
-   }
-   if ((parseInt(returnNumber(gridDownLeft))<209)&&((parseInt(returnNumber(gridDownLeft))%16)!=1)){
-    document.getElementById(gridDownLeft).click()  
-   } 
-   if ((parseInt(returnNumber(gridDownRight))<209)&&((parseInt(returnNumber(gridDownRight))%16)!=0)){
-    document.getElementById(gridDownRight).click()  
-   }
-*/
 }
