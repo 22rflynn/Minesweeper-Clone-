@@ -11,8 +11,8 @@
   .grid-container{
   justify-content:center;
   display:grid;
-  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
-  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
   background-color:grey;
   padding:10px;
 }
@@ -29,6 +29,7 @@
   height:50px;
   width:50px;
 }
+<div id="classDiv">
 .c1{ grid-column:1 / 2; grid-row: 1 / 2}
 .c2{ grid-column:2 / 3; grid-row: 1 / 2}
 .c3{ grid-column:3 / 4; grid-row: 1 / 2}
@@ -38,672 +39,113 @@
 .c7{ grid-column:7 / 8; grid-row: 1 / 2}
 .c8{ grid-column:8 / 9; grid-row: 1 / 2}
 .c9{ grid-column:9 / 10; grid-row: 1 / 2}
-.c10{ grid-column:10 / 11; grid-row: 1 / 2}
-.c11{ grid-column:11 / 12; grid-row: 1 / 2}
-.c12{ grid-column:12 / 13; grid-row: 1 / 2}
-.c13{ grid-column:13 / 14; grid-row: 1 / 2}
-.c14{ grid-column:14 / 15; grid-row: 1 / 2}
-.c15{ grid-column:15 / 16; grid-row: 1 / 2}
-.c16{ grid-column:16 / 17; grid-row: 1 / 2}
-.c17{ grid-column:1 / 2; grid-row: 2 / 3}
-.c18{ grid-column:2 / 3; grid-row: 2 / 3}
-.c19{ grid-column:3 / 4; grid-row: 2 / 3}
-.c20{ grid-column:4 / 5; grid-row: 2 / 3}
-.c21{ grid-column:5 / 6; grid-row: 2 / 3}
-.c22{ grid-column:6 / 7; grid-row: 2 / 3}
-.c23{ grid-column:7 / 8; grid-row: 2 / 3}
-.c24{ grid-column:8 / 9; grid-row: 2 / 3}
-.c25{ grid-column:9 / 10; grid-row: 2 / 3}
-.c26{ grid-column:10 / 11; grid-row: 2 / 3}
-.c27{ grid-column:11 / 12; grid-row: 2 / 3}
-.c28{ grid-column:12 / 13; grid-row: 2 / 3}
-.c29{ grid-column:13 / 14; grid-row: 2 / 3}
-.c30{ grid-column:14 / 15; grid-row: 2 / 3}
-.c31{ grid-column:15 / 16; grid-row: 2 / 3}
-.c32{ grid-column:16 / 17; grid-row: 2 / 3}
-.c33{ grid-column:1 / 2; grid-row: 3 / 4}
-.c34{ grid-column:2 / 3; grid-row: 3 / 4}
-.c35{ grid-column:3 / 4; grid-row: 3 / 4}
-.c36{ grid-column:4 / 5; grid-row: 3 / 4}
-.c37{ grid-column:5 / 6; grid-row: 3 / 4}
-.c38{ grid-column:6 / 7; grid-row: 3 / 4}
-.c39{ grid-column:7 / 8; grid-row: 3 / 4}
-.c40{ grid-column:8 / 9; grid-row: 3 / 4}
-.c41{ grid-column:9 / 10; grid-row: 3 / 4}
-.c42{ grid-column:10 / 11; grid-row: 3 / 4}
-.c43{ grid-column:11 / 12; grid-row: 3 / 4}
-.c44{ grid-column:12 / 13; grid-row: 3 / 4}
-.c45{ grid-column:13 / 14; grid-row: 3 / 4}
-.c46{ grid-column:14 / 15; grid-row: 3 / 4}
-.c47{ grid-column:15 / 16; grid-row: 3 / 4}
-.c48{ grid-column:16 / 17; grid-row: 3 / 4}
-.c49{ grid-column:1 / 2; grid-row: 4 / 5}
-.c50{ grid-column:2 / 3; grid-row: 4 / 5}
-.c51{ grid-column:3 / 4; grid-row: 4 / 5}
-.c52{ grid-column:4 / 5; grid-row: 4 / 5}
-.c53{ grid-column:5 / 6; grid-row: 4 / 5}
-.c54{ grid-column:6 / 7; grid-row: 4 / 5}
-.c55{ grid-column:7 / 8; grid-row: 4 / 5}
-.c56{ grid-column:8 / 9; grid-row: 4 / 5}
-.c57{ grid-column:9 / 10; grid-row: 4 / 5}
-.c58{ grid-column:10 / 11; grid-row: 4 / 5}
-.c59{ grid-column:11 / 12; grid-row: 4 / 5}
-.c60{ grid-column:12 / 13; grid-row: 4 / 5}
-.c61{ grid-column:13 / 14; grid-row: 4 / 5}
-.c62{ grid-column:14 / 15; grid-row: 4 / 5}
-.c63{ grid-column:15 / 16; grid-row: 4 / 5}
-.c64{ grid-column:16 / 17; grid-row: 4 / 5}
-.c65{ grid-column:1 / 2; grid-row: 5 / 6}
-.c66{ grid-column:2 / 3; grid-row: 5 / 6}
-.c67{ grid-column:3 / 4; grid-row: 5 / 6}
-.c68{ grid-column:4 / 5; grid-row: 5 / 6}
-.c69{ grid-column:5 / 6; grid-row: 5 / 6}
-.c70{ grid-column:6 / 7; grid-row: 5 / 6}
-.c71{ grid-column:7 / 8; grid-row: 5 / 6}
-.c72{ grid-column:8 / 9; grid-row: 5 / 6}
-.c73{ grid-column:9 / 10; grid-row: 5 / 6}
-.c74{ grid-column:10 / 11; grid-row: 5 / 6}
-.c75{ grid-column:11 / 12; grid-row: 5 / 6}
-.c76{ grid-column:12 / 13; grid-row: 5 / 6}
-.c77{ grid-column:13 / 14; grid-row: 5 / 6}
-.c78{ grid-column:14 / 15; grid-row: 5 / 6}
-.c79{ grid-column:15 / 16; grid-row: 5 / 6}
-.c80{ grid-column:16 / 17; grid-row: 5 / 6}
-.c81{ grid-column:1 / 2; grid-row: 6 / 7}
-.c82{ grid-column:2 / 3; grid-row: 6 / 7}
-.c83{ grid-column:3 / 4; grid-row: 6 / 7}
-.c84{ grid-column:4 / 5; grid-row: 6 / 7}
-.c85{ grid-column:5 / 6; grid-row: 6 / 7}
-.c86{ grid-column:6 / 7; grid-row: 6 / 7}
-.c87{ grid-column:7 / 8; grid-row: 6 / 7}
-.c88{ grid-column:8 / 9; grid-row: 6 / 7}
-.c89{ grid-column:9 / 10; grid-row: 6 / 7}
-.c90{ grid-column:10 / 11; grid-row: 6 / 7}
-.c91{ grid-column:11 / 12; grid-row: 6 / 7}
-.c92{ grid-column:12 / 13; grid-row: 6 / 7}
-.c93{ grid-column:13 / 14; grid-row: 6 / 7}
-.c94{ grid-column:14 / 15; grid-row: 6 / 7}
-.c95{ grid-column:15 / 16; grid-row: 6 / 7}
-.c96{ grid-column:16 / 17; grid-row: 6 / 7}
-.c97{ grid-column:1 / 2; grid-row: 7 / 8}
-.c98{ grid-column:2 / 3; grid-row: 7 / 8}
-.c99{ grid-column:3 / 4; grid-row: 7 / 8}
-.c100{ grid-column:4 / 5; grid-row: 7 / 8}
-.c101{ grid-column:5 / 6; grid-row: 7 / 8}
-.c102{ grid-column:6 / 7; grid-row: 7 / 8}
-.c103{ grid-column:7 / 8; grid-row: 7 / 8}
-.c104{ grid-column:8 / 9; grid-row: 7 / 8}
-.c105{ grid-column:9 / 10; grid-row: 7 / 8}
-.c106{ grid-column:10 / 11; grid-row: 7 / 8}
-.c107{ grid-column:11 / 12; grid-row: 7 / 8}
-.c108{ grid-column:12 / 13; grid-row: 7 / 8}
-.c109{ grid-column:13 / 14; grid-row: 7 / 8}
-.c110{ grid-column:14 / 15; grid-row: 7 / 8}
-.c111{ grid-column:15 / 16; grid-row: 7 / 8}
-.c112{ grid-column:16 / 17; grid-row: 7 / 8}
-.c113{ grid-column:1 / 2; grid-row: 8 / 9}
-.c114{ grid-column:2 / 3; grid-row: 8 / 9}
-.c115{ grid-column:3 / 4; grid-row: 8 / 9}
-.c116{ grid-column:4 / 5; grid-row: 8 / 9}
-.c117{ grid-column:5 / 6; grid-row: 8 / 9}
-.c118{ grid-column:6 / 7; grid-row: 8 / 9}
-.c119{ grid-column:7 / 8; grid-row: 8 / 9}
-.c120{ grid-column:8 / 9; grid-row: 8 / 9}
-.c121{ grid-column:9 / 10; grid-row: 8 / 9}
-.c122{ grid-column:10 / 11; grid-row: 8 / 9}
-.c123{ grid-column:11 / 12; grid-row: 8 / 9}
-.c124{ grid-column:12 / 13; grid-row: 8 / 9}
-.c125{ grid-column:13 / 14; grid-row: 8 / 9}
-.c126{ grid-column:14 / 15; grid-row: 8 / 9}
-.c127{ grid-column:15 / 16; grid-row: 8 / 9}
-.c128{ grid-column:16 / 17; grid-row: 8 / 9}
-.c129{ grid-column:1 / 2; grid-row: 9 / 10}
-.c130{ grid-column:2 / 3; grid-row: 9 / 10}
-.c131{ grid-column:3 / 4; grid-row: 9 / 10}
-.c132{ grid-column:4 / 5; grid-row: 9 / 10}
-.c133{ grid-column:5 / 6; grid-row: 9 / 10}
-.c134{ grid-column:6 / 7; grid-row: 9 / 10}
-.c135{ grid-column:7 / 8; grid-row: 9 / 10}
-.c136{ grid-column:8 / 9; grid-row: 9 / 10}
-.c137{ grid-column:9 / 10; grid-row: 9 / 10}
-.c138{ grid-column:10 / 11; grid-row: 9 / 10}
-.c139{ grid-column:11 / 12; grid-row: 9 / 10}
-.c140{ grid-column:12 / 13; grid-row: 9 / 10}
-.c141{ grid-column:13 / 14; grid-row: 9 / 10}
-.c142{ grid-column:14 / 15; grid-row: 9 / 10}
-.c143{ grid-column:15 / 16; grid-row: 9 / 10}
-.c144{ grid-column:16 / 17; grid-row: 9 / 10}
-.c145{ grid-column:1 / 2; grid-row: 10 / 11}
-.c146{ grid-column:2 / 3; grid-row: 10 / 11}
-.c147{ grid-column:3 / 4; grid-row: 10 / 11}
-.c148{ grid-column:4 / 5; grid-row: 10 / 11}
-.c149{ grid-column:5 / 6; grid-row: 10 / 11}
-.c150{ grid-column:6 / 7; grid-row: 10 / 11}
-.c151{ grid-column:7 / 8; grid-row: 10 / 11}
-.c152{ grid-column:8 / 9; grid-row: 10 / 11}
-.c153{ grid-column:9 / 10; grid-row: 10 / 11}
-.c154{ grid-column:10 / 11; grid-row: 10 / 11}
-.c155{ grid-column:11 / 12; grid-row: 10 / 11}
-.c156{ grid-column:12 / 13; grid-row: 10 / 11}
-.c157{ grid-column:13 / 14; grid-row: 10 / 11}
-.c158{ grid-column:14 / 15; grid-row: 10 / 11}
-.c159{ grid-column:15 / 16; grid-row: 10 / 11}
-.c160{ grid-column:16 / 17; grid-row: 10 / 11}
-.c161{ grid-column:1 / 2; grid-row: 11 / 12}
-.c162{ grid-column:2 / 3; grid-row: 11 / 12}
-.c163{ grid-column:3 / 4; grid-row: 11 / 12}
-.c164{ grid-column:4 / 5; grid-row: 11 / 12}
-.c165{ grid-column:5 / 6; grid-row: 11 / 12}
-.c166{ grid-column:6 / 7; grid-row: 11 / 12}
-.c167{ grid-column:7 / 8; grid-row: 11 / 12}
-.c168{ grid-column:8 / 9; grid-row: 11 / 12}
-.c169{ grid-column:9 / 10; grid-row: 11 / 12}
-.c170{ grid-column:10 / 11; grid-row: 11 / 12}
-.c171{ grid-column:11 / 12; grid-row: 11 / 12}
-.c172{ grid-column:12 / 13; grid-row: 11 / 12}
-.c173{ grid-column:13 / 14; grid-row: 11 / 12}
-.c174{ grid-column:14 / 15; grid-row: 11 / 12}
-.c175{ grid-column:15 / 16; grid-row: 11 / 12}
-.c176{ grid-column:16 / 17; grid-row: 11 / 12}
-.c177{ grid-column:1 / 2; grid-row: 12 / 13}
-.c178{ grid-column:2 / 3; grid-row: 12 / 13}
-.c179{ grid-column:3 / 4; grid-row: 12 / 13}
-.c180{ grid-column:4 / 5; grid-row: 12 / 13}
-.c181{ grid-column:5 / 6; grid-row: 12 / 13}
-.c182{ grid-column:6 / 7; grid-row: 12 / 13}
-.c183{ grid-column:7 / 8; grid-row: 12 / 13}
-.c184{ grid-column:8 / 9; grid-row: 12 / 13}
-.c185{ grid-column:9 / 10; grid-row: 12 / 13}
-.c186{ grid-column:10 / 11; grid-row: 12 / 13}
-.c187{ grid-column:11 / 12; grid-row: 12 / 13}
-.c188{ grid-column:12 / 13; grid-row: 12 / 13}
-.c189{ grid-column:13 / 14; grid-row: 12 / 13}
-.c190{ grid-column:14 / 15; grid-row: 12 / 13}
-.c191{ grid-column:15 / 16; grid-row: 12 / 13}
-.c192{ grid-column:16 / 17; grid-row: 12 / 13}
-.c193{ grid-column:1 / 2; grid-row: 13 / 14}
-.c194{ grid-column:2 / 3; grid-row: 13 / 14}
-.c195{ grid-column:3 / 4; grid-row: 13 / 14}
-.c196{ grid-column:4 / 5; grid-row: 13 / 14}
-.c197{ grid-column:5 / 6; grid-row: 13 / 14}
-.c198{ grid-column:6 / 7; grid-row: 13 / 14}
-.c199{ grid-column:7 / 8; grid-row: 13 / 14}
-.c200{ grid-column:8 / 9; grid-row: 13 / 14}
-.c201{ grid-column:9 / 10; grid-row: 13 / 14}
-.c202{ grid-column:10 / 11; grid-row: 13 / 14}
-.c203{ grid-column:11 / 12; grid-row: 13 / 14}
-.c204{ grid-column:12 / 13; grid-row: 13 / 14}
-.c205{ grid-column:13 / 14; grid-row: 13 / 14}
-.c206{ grid-column:14 / 15; grid-row: 13 / 14}
-.c207{ grid-column:15 / 16; grid-row: 13 / 14}
-.c208{ grid-column:16 / 16; grid-row: 13 / 14}
+.c10{ grid-column:1 / 2; grid-row: 2 / 3}
+.c11{ grid-column:2 / 3; grid-row: 2 / 3}
+.c12{ grid-column:3 / 4; grid-row: 2 / 3}
+.c13{ grid-column:4 / 5; grid-row: 2 / 3}
+.c14{ grid-column:5 / 6; grid-row: 2 / 3}
+.c15{ grid-column:6 / 7; grid-row: 2 / 3}
+.c16{ grid-column:7 / 8; grid-row: 2 / 3}
+.c17{ grid-column:8 / 9; grid-row: 2 / 3}
+.c18{ grid-column:9 / 10; grid-row: 2 / 3}
+.c19{ grid-column:1 / 2; grid-row: 3 / 4}
+.c20{ grid-column:2 / 3; grid-row: 3 / 4}
+.c21{ grid-column:3 / 4; grid-row: 3 / 4}
+.c22{ grid-column:4 / 5; grid-row: 3 / 4}
+.c23{ grid-column:5 / 6; grid-row: 3 / 4}
+.c24{ grid-column:6 / 7; grid-row: 3 / 4}
+.c25{ grid-column:7 / 8; grid-row: 3 / 4}
+.c26{ grid-column:8 / 9; grid-row: 3 / 4}
+.c27{ grid-column:9 / 10; grid-row: 3 / 4}
+.c28{ grid-column:1 / 2; grid-row: 4 / 5}
+.c29{ grid-column:2 / 3; grid-row: 4 / 5}
+.c30{ grid-column:3 / 4; grid-row: 4 / 5}
+.c31{ grid-column:4 / 5; grid-row: 4 / 5}
+.c32{ grid-column:5 / 6; grid-row: 4 / 5}
+.c33{ grid-column:6 / 7; grid-row: 4 / 5}
+.c34{ grid-column:7 / 8; grid-row: 4 / 5}
+.c35{ grid-column:8 / 9; grid-row: 4 / 5}
+.c36{ grid-column:9 / 10; grid-row: 4 / 5}
+.c37{ grid-column:1 / 2; grid-row: 5 / 6}
+.c38{ grid-column:2 / 3; grid-row: 5 / 6}
+.c39{ grid-column:3 / 4; grid-row: 5 / 6}
+.c40{ grid-column:4 / 5; grid-row: 5 / 6}
+.c41{ grid-column:5 / 6; grid-row: 5 / 6}
+.c42{ grid-column:6 / 7; grid-row: 5 / 6}
+.c43{ grid-column:7 / 8; grid-row: 5 / 6}
+.c44{ grid-column:8 / 9; grid-row: 5 / 6}
+.c45{ grid-column:9 / 10; grid-row: 5 / 6}
+.c46{ grid-column:1 / 2; grid-row: 6 / 7}
+.c47{ grid-column:2 / 3; grid-row: 6 / 7}
+.c48{ grid-column:3 / 4; grid-row: 6 / 7}
+.c49{ grid-column:4 / 5; grid-row: 6 / 7}
+.c50{ grid-column:5 / 6; grid-row: 6 / 7}
+.c51{ grid-column:6 / 7; grid-row: 6 / 7}
+.c52{ grid-column:7 / 8; grid-row: 6 / 7}
+.c53{ grid-column:8 / 9; grid-row: 6 / 7}
+.c54{ grid-column:9 / 10; grid-row: 6 / 7}
+.c55{ grid-column:1 / 2; grid-row: 7 / 8}
+.c56{ grid-column:2 / 3; grid-row: 7 / 8}
+.c57{ grid-column:3 / 4; grid-row: 7 / 8}
+.c58{ grid-column:4 / 5; grid-row: 7 / 8}
+.c59{ grid-column:5 / 6; grid-row: 7 / 8}
+.c60{ grid-column:6 / 7; grid-row: 7 / 8}
+.c61{ grid-column:7 / 8; grid-row: 7 / 8}
+.c62{ grid-column:8 / 9; grid-row: 7 / 8}
+.c63{ grid-column:9 / 10; grid-row: 7 / 8}
+.c64{ grid-column:1 / 2; grid-row: 8 / 9}
+.c65{ grid-column:2 / 3; grid-row: 8 / 9}
+.c66{ grid-column:3 / 4; grid-row: 8 / 9}
+.c67{ grid-column:4 / 5; grid-row: 8 / 9}
+.c68{ grid-column:5 / 6; grid-row: 8 / 9}
+.c69{ grid-column:6 / 7; grid-row: 8 / 9}
+.c70{ grid-column:7 / 8; grid-row: 8 / 9}
+.c71{ grid-column:8 / 9; grid-row: 8 / 9}
+.c72{ grid-column:9 / 10; grid-row: 8 / 9}
+.c73{ grid-column:1 / 2; grid-row: 9 / 10}
+.c74{ grid-column:2 / 3; grid-row: 9 / 10}
+.c75{ grid-column:3 / 4; grid-row: 9 / 10}
+.c76{ grid-column:4 / 5; grid-row: 9 / 10}
+.c77{ grid-column:5 / 6; grid-row: 9 / 10}
+.c78{ grid-column:6 / 7; grid-row: 9 / 10}
+.c79{ grid-column:7 / 8; grid-row: 9 / 10}
+.c80{ grid-column:8 / 9; grid-row: 9 / 10}
+.c81{ grid-column:9 / 10; grid-row: 9 / 10}
+  </div>
 </style>  
   <body style=background-color:grey>
     <h1>
       <center id=title style="color:white" style=user-select: none; >
        Minesweeper</center>
     </h1>
-  <script src="script.js"></script>
-  <div class="grid-container">
-<div id=grid1 class=c1></div>
-<div id=grid2 class=c2></div>
-<div id=grid3 class=c3></div>
-<div id=grid4 class=c4></div>
-<div id=grid5 class=c5></div>
-<div id=grid6 class=c6></div>
-<div id=grid7 class=c7></div>
-<div id=grid8 class=c8></div>
-<div id=grid9 class=c9></div>
-<div id=grid10 class=c10></div>
-<div id=grid11 class=c11></div>
-<div id=grid12 class=c12></div>
-<div id=grid13 class=c13></div>
-<div id=grid14 class=c14></div>
-<div id=grid15 class=c15></div>
-<div id=grid16 class=c16></div>
-<div id=grid17 class=c17></div>
-<div id=grid18 class=c18></div>
-<div id=grid19 class=c19></div>
-<div id=grid20 class=c20></div>
-<div id=grid21 class=c21></div>
-<div id=grid22 class=c22></div>
-<div id=grid23 class=c23></div>
-<div id=grid24 class=c24></div>
-<div id=grid25 class=c25></div>
-<div id=grid26 class=c26></div>
-<div id=grid27 class=c27></div>
-<div id=grid28 class=c28></div>
-<div id=grid29 class=c29></div>
-<div id=grid30 class=c30></div>
-<div id=grid31 class=c31></div>
-<div id=grid32 class=c32></div>
-<div id=grid33 class=c33></div>
-<div id=grid34 class=c34></div>
-<div id=grid35 class=c35></div>
-<div id=grid36 class=c36></div>
-<div id=grid37 class=c37></div>
-<div id=grid38 class=c38></div>
-<div id=grid39 class=c39></div>
-<div id=grid40 class=c40></div>
-<div id=grid41 class=c41></div>
-<div id=grid42 class=c42></div>
-<div id=grid43 class=c43></div>
-<div id=grid44 class=c44></div>
-<div id=grid45 class=c45></div>
-<div id=grid46 class=c46></div>
-<div id=grid47 class=c47></div>
-<div id=grid48 class=c48></div>
-<div id=grid49 class=c49></div>
-<div id=grid50 class=c50></div>
-<div id=grid51 class=c51></div>
-<div id=grid52 class=c52></div>
-<div id=grid53 class=c53></div>
-<div id=grid54 class=c54></div>
-<div id=grid55 class=c55></div>
-<div id=grid56 class=c56></div>
-<div id=grid57 class=c57></div>
-<div id=grid58 class=c58></div>
-<div id=grid59 class=c59></div>
-<div id=grid60 class=c60></div>
-<div id=grid61 class=c61></div>
-<div id=grid62 class=c62></div>
-<div id=grid63 class=c63></div>
-<div id=grid64 class=c64></div>
-<div id=grid65 class=c65></div>
-<div id=grid66 class=c66></div>
-<div id=grid67 class=c67></div>
-<div id=grid68 class=c68></div>
-<div id=grid69 class=c69></div>
-<div id=grid70 class=c70></div>
-<div id=grid71 class=c71></div>
-<div id=grid72 class=c72></div>
-<div id=grid73 class=c73></div>
-<div id=grid74 class=c74></div>
-<div id=grid75 class=c75></div>
-<div id=grid76 class=c76></div>
-<div id=grid77 class=c77></div>
-<div id=grid78 class=c78></div>
-<div id=grid79 class=c79></div>
-<div id=grid80 class=c80></div>
-<div id=grid81 class=c81></div>
-<div id=grid82 class=c82></div>
-<div id=grid83 class=c83></div>
-<div id=grid84 class=c84></div>
-<div id=grid85 class=c85></div>
-<div id=grid86 class=c86></div>
-<div id=grid87 class=c87></div>
-<div id=grid88 class=c88></div>
-<div id=grid89 class=c89></div>
-<div id=grid90 class=c90></div>
-<div id=grid91 class=c91></div>
-<div id=grid92 class=c92></div>
-<div id=grid93 class=c93></div>
-<div id=grid94 class=c94></div>
-<div id=grid95 class=c95></div>
-<div id=grid96 class=c96></div>
-<div id=grid97 class=c97></div>
-<div id=grid98 class=c98></div>
-<div id=grid99 class=c99></div>
-<div id=grid100 class=c100></div>
-<div id=grid101 class=c101></div>
-<div id=grid102 class=c102></div>
-<div id=grid103 class=c103></div>
-<div id=grid104 class=c104></div>
-<div id=grid105 class=c105></div>
-<div id=grid106 class=c106></div>
-<div id=grid107 class=c107></div>
-<div id=grid108 class=c108></div>
-<div id=grid109 class=c109></div>
-<div id=grid110 class=c110></div>
-<div id=grid111 class=c111></div>
-<div id=grid112 class=c112></div>
-<div id=grid113 class=c113></div>
-<div id=grid114 class=c114></div>
-<div id=grid115 class=c115></div>
-<div id=grid116 class=c116></div>
-<div id=grid117 class=c117></div>
-<div id=grid118 class=c118></div>
-<div id=grid119 class=c119></div>
-<div id=grid120 class=c120></div>
-<div id=grid121 class=c121></div>
-<div id=grid122 class=c122></div>
-<div id=grid123 class=c123></div>
-<div id=grid124 class=c124></div>
-<div id=grid125 class=c125></div>
-<div id=grid126 class=c126></div>
-<div id=grid127 class=c127></div>
-<div id=grid128 class=c128></div>
-<div id=grid129 class=c129></div>
-<div id=grid130 class=c130></div>
-<div id=grid131 class=c131></div>
-<div id=grid132 class=c132></div>
-<div id=grid133 class=c133></div>
-<div id=grid134 class=c134></div>
-<div id=grid135 class=c135></div>
-<div id=grid136 class=c136></div>
-<div id=grid137 class=c137></div>
-<div id=grid138 class=c138></div>
-<div id=grid139 class=c139></div>
-<div id=grid140 class=c140></div>
-<div id=grid141 class=c141></div>
-<div id=grid142 class=c142></div>
-<div id=grid143 class=c143></div>
-<div id=grid144 class=c144></div>
-<div id=grid145 class=c145></div>
-<div id=grid146 class=c146></div>
-<div id=grid147 class=c147></div>
-<div id=grid148 class=c148></div>
-<div id=grid149 class=c149></div>
-<div id=grid150 class=c150></div>
-<div id=grid151 class=c151></div>
-<div id=grid152 class=c152></div>
-<div id=grid153 class=c153></div>
-<div id=grid154 class=c154></div>
-<div id=grid155 class=c155></div>
-<div id=grid156 class=c156></div>
-<div id=grid157 class=c157></div>
-<div id=grid158 class=c158></div>
-<div id=grid159 class=c159></div>
-<div id=grid160 class=c160></div>
-<div id=grid161 class=c161></div>
-<div id=grid162 class=c162></div>
-<div id=grid163 class=c163></div>
-<div id=grid164 class=c164></div>
-<div id=grid165 class=c165></div>
-<div id=grid166 class=c166></div>
-<div id=grid167 class=c167></div>
-<div id=grid168 class=c168></div>
-<div id=grid169 class=c169></div>
-<div id=grid170 class=c170></div>
-<div id=grid171 class=c171></div>
-<div id=grid172 class=c172></div>
-<div id=grid173 class=c173></div>
-<div id=grid174 class=c174></div>
-<div id=grid175 class=c175></div>
-<div id=grid176 class=c176></div>
-<div id=grid177 class=c177></div>
-<div id=grid178 class=c178></div>
-<div id=grid179 class=c179></div>
-<div id=grid180 class=c180></div>
-<div id=grid181 class=c181></div>
-<div id=grid182 class=c182></div>
-<div id=grid183 class=c183></div>
-<div id=grid184 class=c184></div>
-<div id=grid185 class=c185></div>
-<div id=grid186 class=c186></div>
-<div id=grid187 class=c187></div>
-<div id=grid188 class=c188></div>
-<div id=grid189 class=c189></div>
-<div id=grid190 class=c190></div>
-<div id=grid191 class=c191></div>
-<div id=grid192 class=c192></div>
-<div id=grid193 class=c193></div>
-<div id=grid194 class=c194></div>
-<div id=grid195 class=c195></div>
-<div id=grid196 class=c196></div>
-<div id=grid197 class=c197></div>
-<div id=grid198 class=c198></div>
-<div id=grid199 class=c199></div>
-<div id=grid200 class=c200></div>
-<div id=grid201 class=c201></div>
-<div id=grid202 class=c202></div>
-<div id=grid203 class=c203></div>
-<div id=grid204 class=c204></div>
-<div id=grid205 class=c205></div>
-<div id=grid206 class=c206></div>
-<div id=grid207 class=c207></div>
-<div id=grid208 class=c208></div>
-    <div>
-    <script>       document.getElementById("grid"+bombList[0]).innerHTML="BOOM!";      document.getElementById("grid"+bombList[1]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[2]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[3]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[4]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[5]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[6]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[7]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[8]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[9]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[10]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[11]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[12]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[13]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[14]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[15]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[16]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[17]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[18]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[19]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[20]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[21]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[22]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[23]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[24]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[25]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[26]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[27]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[28]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[29]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[30]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[31]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[32]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[33]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[34]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[35]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[36]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[37]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[38]).innerHTML="BOOM!";
-document.getElementById("grid"+bombList[39]).innerHTML="BOOM!";
+    <center><button onClick=window.location.reload()>Reset</button></center>
+    <script src="script.js"></script>
+<!--div for grid-->
+    <div class="grid-container" id="gridDiv"></div>
+
+
+    <script>
+/*Script to create grid and buttons*/
+
+      function createGrid(){
+      var text=""
+      for(var i=1;i<82;i++){
+  text = text +"<div id=grid"+i+" class=c"+i+"></div>"+"\n"+"<button id=button"+i+" class=c"+i+" onclick= onEvent();></button>"+"\n"
+}
+var gridDiv= document.getElementById("gridDiv")
+  gridDiv.innerHTML=text
+      }
+
+/*Script to place bombs*/
+var text=""
+      function placeBombs(){
+      for(var i=0;i<20;i++){
+        document.getElementById("grid"+bombList[i]).innerHTML="BOOM!"; 
+       }
+      }
+
+      createGrid()
+      placeBombs()
     </script>
-
-    </div>
-<button id=button1 class=c1 onclick= onEvent();></button>
-<button id=button2 class=c2 onclick= onEvent();></button>
-<button id=button3 class=c3 onclick= onEvent();></button>
-<button id=button4 class=c4 onclick= onEvent();></button>
-<button id=button5 class=c5 onclick= onEvent();></button>
-<button id=button6 class=c6 onclick= onEvent();></button>
-<button id=button7 class=c7 onclick= onEvent();></button>
-<button id=button8 class=c8 onclick= onEvent();></button>
-<button id=button9 class=c9 onclick= onEvent();></button>
-<button id=button10 class=c10 onclick= onEvent();></button>
-<button id=button11 class=c11 onclick= onEvent();></button>
-<button id=button12 class=c12 onclick= onEvent();></button>
-<button id=button13 class=c13 onclick= onEvent();></button>
-<button id=button14 class=c14 onclick= onEvent();></button>
-<button id=button15 class=c15 onclick= onEvent();></button>
-<button id=button16 class=c16 onclick= onEvent();></button>
-<button id=button17 class=c17 onclick= onEvent();></button>
-<button id=button18 class=c18 onclick= onEvent();></button>
-<button id=button19 class=c19 onclick= onEvent();></button>
-<button id=button20 class=c20 onclick= onEvent();></button>
-<button id=button21 class=c21 onclick= onEvent();></button>
-<button id=button22 class=c22 onclick= onEvent();></button>
-<button id=button23 class=c23 onclick= onEvent();></button>
-<button id=button24 class=c24 onclick= onEvent();></button>
-<button id=button25 class=c25 onclick= onEvent();></button>
-<button id=button26 class=c26 onclick= onEvent();></button>
-<button id=button27 class=c27 onclick= onEvent();></button>
-<button id=button28 class=c28 onclick= onEvent();></button>
-<button id=button29 class=c29 onclick= onEvent();></button>
-<button id=button30 class=c30 onclick= onEvent();></button>
-<button id=button31 class=c31 onclick= onEvent();></button>
-<button id=button32 class=c32 onclick= onEvent();></button>
-<button id=button33 class=c33 onclick= onEvent();></button>
-<button id=button34 class=c34 onclick= onEvent();></button>
-<button id=button35 class=c35 onclick= onEvent();></button>
-<button id=button36 class=c36 onclick= onEvent();></button>
-<button id=button37 class=c37 onclick= onEvent();></button>
-<button id=button38 class=c38 onclick= onEvent();></button>
-<button id=button39 class=c39 onclick= onEvent();></button>
-<button id=button40 class=c40 onclick= onEvent();></button>
-<button id=button41 class=c41 onclick= onEvent();></button>
-<button id=button42 class=c42 onclick= onEvent();></button>
-<button id=button43 class=c43 onclick= onEvent();></button>
-<button id=button44 class=c44 onclick= onEvent();></button>
-<button id=button45 class=c45 onclick= onEvent();></button>
-<button id=button46 class=c46 onclick= onEvent();></button>
-<button id=button47 class=c47 onclick= onEvent();></button>
-<button id=button48 class=c48 onclick= onEvent();></button>
-<button id=button49 class=c49 onclick= onEvent();></button>
-<button id=button50 class=c50 onclick= onEvent();></button>
-<button id=button51 class=c51 onclick= onEvent();></button>
-<button id=button52 class=c52 onclick= onEvent();></button>
-<button id=button53 class=c53 onclick= onEvent();></button>
-<button id=button54 class=c54 onclick= onEvent();></button>
-<button id=button55 class=c55 onclick= onEvent();></button>
-<button id=button56 class=c56 onclick= onEvent();></button>
-<button id=button57 class=c57 onclick= onEvent();></button>
-<button id=button58 class=c58 onclick= onEvent();></button>
-<button id=button59 class=c59 onclick= onEvent();></button>
-<button id=button60 class=c60 onclick= onEvent();></button>
-<button id=button61 class=c61 onclick= onEvent();></button>
-<button id=button62 class=c62 onclick= onEvent();></button>
-<button id=button63 class=c63 onclick= onEvent();></button>
-<button id=button64 class=c64 onclick= onEvent();></button>
-<button id=button65 class=c65 onclick= onEvent();></button>
-<button id=button66 class=c66 onclick= onEvent();></button>
-<button id=button67 class=c67 onclick= onEvent();></button>
-<button id=button68 class=c68 onclick= onEvent();></button>
-<button id=button69 class=c69 onclick= onEvent();></button>
-<button id=button70 class=c70 onclick= onEvent();></button>
-<button id=button71 class=c71 onclick= onEvent();></button>
-<button id=button72 class=c72 onclick= onEvent();></button>
-<button id=button73 class=c73 onclick= onEvent();></button>
-<button id=button74 class=c74 onclick= onEvent();></button>
-<button id=button75 class=c75 onclick= onEvent();></button>
-<button id=button76 class=c76 onclick= onEvent();></button>
-<button id=button77 class=c77 onclick= onEvent();></button>
-<button id=button78 class=c78 onclick= onEvent();></button>
-<button id=button79 class=c79 onclick= onEvent();></button>
-<button id=button80 class=c80 onclick= onEvent();></button>
-<button id=button81 class=c81 onclick= onEvent();></button>
-<button id=button82 class=c82 onclick= onEvent();></button>
-<button id=button83 class=c83 onclick= onEvent();></button>
-<button id=button84 class=c84 onclick= onEvent();></button>
-<button id=button85 class=c85 onclick= onEvent();></button>
-<button id=button86 class=c86 onclick= onEvent();></button>
-<button id=button87 class=c87 onclick= onEvent();></button>
-<button id=button88 class=c88 onclick= onEvent();></button>
-<button id=button89 class=c89 onclick= onEvent();></button>
-<button id=button90 class=c90 onclick= onEvent();></button>
-<button id=button91 class=c91 onclick= onEvent();></button>
-<button id=button92 class=c92 onclick= onEvent();></button>
-<button id=button93 class=c93 onclick= onEvent();></button>
-<button id=button94 class=c94 onclick= onEvent();></button>
-<button id=button95 class=c95 onclick= onEvent();></button>
-<button id=button96 class=c96 onclick= onEvent();></button>
-<button id=button97 class=c97 onclick= onEvent();></button>
-<button id=button98 class=c98 onclick= onEvent();></button>
-<button id=button99 class=c99 onclick= onEvent();></button>
-<button id=button100 class=c100 onclick= onEvent();></button>
-<button id=button101 class=c101 onclick= onEvent();></button>
-<button id=button102 class=c102 onclick= onEvent();></button>
-<button id=button103 class=c103 onclick= onEvent();></button>
-<button id=button104 class=c104 onclick= onEvent();></button>
-<button id=button105 class=c105 onclick= onEvent();></button>
-<button id=button106 class=c106 onclick= onEvent();></button>
-<button id=button107 class=c107 onclick= onEvent();></button>
-<button id=button108 class=c108 onclick= onEvent();></button>
-<button id=button109 class=c109 onclick= onEvent();></button>
-<button id=button110 class=c110 onclick= onEvent();></button>
-<button id=button111 class=c111 onclick= onEvent();></button>
-<button id=button112 class=c112 onclick= onEvent();></button>
-<button id=button113 class=c113 onclick= onEvent();></button>
-<button id=button114 class=c114 onclick= onEvent();></button>
-<button id=button115 class=c115 onclick= onEvent();></button>
-<button id=button116 class=c116 onclick= onEvent();></button>
-<button id=button117 class=c117 onclick= onEvent();></button>
-<button id=button118 class=c118 onclick= onEvent();></button>
-<button id=button119 class=c119 onclick= onEvent();></button>
-<button id=button120 class=c120 onclick= onEvent();></button>
-<button id=button121 class=c121 onclick= onEvent();></button>
-<button id=button122 class=c122 onclick= onEvent();></button>
-<button id=button123 class=c123 onclick= onEvent();></button>
-<button id=button124 class=c124 onclick= onEvent();></button>
-<button id=button125 class=c125 onclick= onEvent();></button>
-<button id=button126 class=c126 onclick= onEvent();></button>
-<button id=button127 class=c127 onclick= onEvent();></button>
-<button id=button128 class=c128 onclick= onEvent();></button>
-<button id=button129 class=c129 onclick= onEvent();></button>
-<button id=button130 class=c130 onclick= onEvent();></button>
-<button id=button131 class=c131 onclick= onEvent();></button>
-<button id=button132 class=c132 onclick= onEvent();></button>
-<button id=button133 class=c133 onclick= onEvent();></button>
-<button id=button134 class=c134 onclick= onEvent();></button>
-<button id=button135 class=c135 onclick= onEvent();></button>
-<button id=button136 class=c136 onclick= onEvent();></button>
-<button id=button137 class=c137 onclick= onEvent();></button>
-<button id=button138 class=c138 onclick= onEvent();></button>
-<button id=button139 class=c139 onclick= onEvent();></button>
-<button id=button140 class=c140 onclick= onEvent();></button>
-<button id=button141 class=c141 onclick= onEvent();></button>
-<button id=button142 class=c142 onclick= onEvent();></button>
-<button id=button143 class=c143 onclick= onEvent();></button>
-<button id=button144 class=c144 onclick= onEvent();></button>
-<button id=button145 class=c145 onclick= onEvent();></button>
-<button id=button146 class=c146 onclick= onEvent();></button>
-<button id=button147 class=c147 onclick= onEvent();></button>
-<button id=button148 class=c148 onclick= onEvent();></button>
-<button id=button149 class=c149 onclick= onEvent();></button>
-<button id=button150 class=c150 onclick= onEvent();></button>
-<button id=button151 class=c151 onclick= onEvent();></button>
-<button id=button152 class=c152 onclick= onEvent();></button>
-<button id=button153 class=c153 onclick= onEvent();></button>
-<button id=button154 class=c154 onclick= onEvent();></button>
-<button id=button155 class=c155 onclick= onEvent();></button>
-<button id=button156 class=c156 onclick= onEvent();></button>
-<button id=button157 class=c157 onclick= onEvent();></button>
-<button id=button158 class=c158 onclick= onEvent();></button>
-<button id=button159 class=c159 onclick= onEvent();></button>
-<button id=button160 class=c160 onclick= onEvent();></button>
-<button id=button161 class=c161 onclick= onEvent();></button>
-<button id=button162 class=c162 onclick= onEvent();></button>
-<button id=button163 class=c163 onclick= onEvent();></button>
-<button id=button164 class=c164 onclick= onEvent();></button>
-<button id=button165 class=c165 onclick= onEvent();></button>
-<button id=button166 class=c166 onclick= onEvent();></button>
-<button id=button167 class=c167 onclick= onEvent();></button>
-<button id=button168 class=c168 onclick= onEvent();></button>
-<button id=button169 class=c169 onclick= onEvent();></button>
-<button id=button170 class=c170 onclick= onEvent();></button>
-<button id=button171 class=c171 onclick= onEvent();></button>
-<button id=button172 class=c172 onclick= onEvent();></button>
-<button id=button173 class=c173 onclick= onEvent();></button>
-<button id=button174 class=c174 onclick= onEvent();></button>
-<button id=button175 class=c175 onclick= onEvent();></button>
-    <button id=button176 class=c176 onclick= onEvent();></button>
-<button id=button177 class=c177 onclick= onEvent();></button>
-<button id=button178 class=c178 onclick= onEvent();></button>
-<button id=button179 class=c179 onclick= onEvent();></button>
-<button id=button180 class=c180 onclick= onEvent();></button>
-<button id=button181 class=c181 onclick= onEvent();></button>
-<button id=button182 class=c182 onclick= onEvent();></button>
-<button id=button183 class=c183 onclick= onEvent();></button>
-<button id=button184 class=c184 onclick= onEvent();></button>
-<button id=button185 class=c185 onclick= onEvent();></button>
-<button id=button186 class=c186 onclick= onEvent();></button>
-<button id=button187 class=c187 onclick= onEvent();></button>
-<button id=button188 class=c188 onclick= onEvent();></button>
-<button id=button189 class=c189 onclick= onEvent();></button>
-<button id=button190 class=c190 onclick= onEvent();></button>
-<button id=button191 class=c191 onclick= onEvent();></button>
-<button id=button192 class=c192 onclick= onEvent();></button>
-<button id=button193 class=c193 onclick= onEvent();></button>
-<button id=button194 class=c194 onclick= onEvent();></button>
-<button id=button195 class=c195 onclick= onEvent();></button>
-<button id=button196 class=c196 onclick= onEvent();></button>
-<button id=button197 class=c197 onclick= onEvent();></button>
-<button id=button198 class=c198 onclick= onEvent();></button>
-<button id=button199 class=c199 onclick= onEvent();></button>
-<button id=button200 class=c200 onclick= onEvent();></button>
-<button id=button201 class=c201 onclick= onEvent();></button>
-<button id=button202 class=c202 onclick= onEvent();></button>
-<button id=button203 class=c203 onclick= onEvent();></button>
-<button id=button204 class=c204 onclick= onEvent();></button>
-<button id=button205 class=c205 onclick= onEvent();></button>
-<button id=button206 class=c206 onclick= onEvent();></button>
-<button id=button207 class=c207 onclick= onEvent();></button>
-<button id=button208 class=c208 onclick= onEvent();></button>
-
   </body>
 </html>
